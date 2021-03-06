@@ -75,7 +75,7 @@ ms.author: chadam
   
 -   Provides an health extended event viewer to show previous events for Always On-specific issues.  
   
--   If failing over the availability group is a possible remediation for an issue, provides a launch point for the links[Fail Over Availability Group Wizard](../../../database-engine/availability-groups/windows/use-the-fail-over-availability-group-wizard-sql-server-management-studio.md). This wizard takes a database administrator through the manual failover process.  
+-   If failing over the availability group is a possible remediation for an issue, provides a launch point for the links [Fail Over Availability Group Wizard](../../../database-engine/availability-groups/windows/use-the-fail-over-availability-group-wizard-sql-server-management-studio.md). This wizard takes a database administrator through the manual failover process.  
   
 ##  <a name="ExtendHealthModel"></a> Extending the Always On Health Model  
  Extending the [!INCLUDE[ssHADR](../../../includes/sshadr-md.md)] health model is simply a matter of creating your own user-defined policies and putting them into certain categories based on the type of object that you are monitoring.  After you a alter few settings, the Always On dashboard will automatically evaluate your own user-defined policies, as well as the Always On predefined policies.  
