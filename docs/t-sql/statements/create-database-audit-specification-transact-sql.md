@@ -94,7 +94,7 @@ GO
 -- Create the server audit.  
 CREATE SERVER AUDIT Payrole_Security_Audit  
     TO FILE ( FILEPATH =   
-'D:\SQLAudit\' ) ;  -- make sure this path exists
+'D:\SQLAudit' ) ;  -- make sure this path exists
 GO  
 -- Enable the server audit.  
 ALTER SERVER AUDIT Payrole_Security_Audit   
@@ -122,7 +122,7 @@ GO
 -- Change the path to a path that the SQLServer Service has access to. 
 CREATE SERVER AUDIT DataModification_Security_Audit  
     TO FILE ( FILEPATH = 
-'D:\SQLAudit\' ) ;  -- make sure this path exists
+'D:\SQLAudit' ) ;  -- make sure this path exists
 GO  
 -- Enable the server audit.  
 ALTER SERVER AUDIT DataModification_Security_Audit   
